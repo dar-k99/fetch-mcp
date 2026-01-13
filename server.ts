@@ -29,7 +29,6 @@ server.tool(
     url: z.string().describe("The URL to fetch"),
     raw: z
       .boolean()
-      .nullish()
       .describe("Return raw HTML instead of Markdown for HTML pages")
       .default(false),
     max_length: z
